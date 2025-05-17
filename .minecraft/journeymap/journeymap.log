@@ -1,20 +1,8 @@
-[00:01:49] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[00:01:49] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[00:01:49] [Client thread/INFO] [PropertiesBase] core (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.core.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] core (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.core.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] fullmap (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.fullmap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] fullmap (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.fullmap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] minimap (Initialized) Setting config file to version "5.7.1p3": journeymap.minimap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] minimap (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.minimap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] minimap2 (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.minimap2.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] minimap2 (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.minimap2.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] topo (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.topo.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] topo (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.topo.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] webmap (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.webmap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] webmap (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.webmap.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] waypoint (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.waypoint.config
-[00:01:49] [Client thread/INFO] [PropertiesBase] waypoint (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\config\5.7\journeymap.waypoint.config
-[00:01:49] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1p3, built with Forge 14.23.5.2768
+[02:39:05] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[02:39:05] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[02:39:05] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[02:39:05] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[02:39:06] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1p3, built with Forge 14.23.5.2768
 Forge: 14.23.5.2860
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_cn
 Features: 
@@ -25,61 +13,22 @@ Features:
 	MapTopo : singleplayer = true , multiplayer = true
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
-MiniMapProperties{state=SavedOk, file=journeymap.minimap.config, configVersion=5.7.1p3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=游戏时间, sizePercent=30, showDayNight=true, info3Label=位置, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=小圆点, showReticle=true, orientation=北, systemTimeRealFormat=HH:mm:ss, shape=圆形, showSelf=true, info4Label=生物群系, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=空, fontScale=2}
-MiniMapProperties{state=SavedOk, file=journeymap.minimap2.config, configVersion=5.7.1p3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=游戏时间, sizePercent=30, showDayNight=true, info3Label=位置, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=小圆点, showReticle=true, orientation=北, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, info4Label=生物群系, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=空, fontScale=2}
-FullMapProperties{state=SavedOk, file=journeymap.fullmap.config, configVersion=5.7.1p3, mobDisplay=小圆点, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
-WaypointProperties{state=SavedOk, file=journeymap.waypoint.config, configVersion=5.7.1p3, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
-WebMapProperties{state=SavedOk, file=journeymap.webmap.config, configVersion=5.7.1p3, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
-CoreProperties{state=SavedOk, file=journeymap.core.config, configVersion=5.7.1p3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[00:01:49] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[00:01:49] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[00:01:49] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[00:01:49] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
-[00:01:53] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[00:01:54] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[00:02:06] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
-org.apache.http.conn.ConnectTimeoutException: Connect to api.cfwidget.com:443 [api.cfwidget.com/172.67.180.91, api.cfwidget.com/104.21.18.40] failed: connect timed out
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:132) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
-	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.7.1p3]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_441]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_441]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_441]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_441]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_441]
-Caused by: java.net.SocketTimeoutException: connect timed out
-	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method) ~[?:1.8.0_441]
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_441]
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_441]
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_441]
-	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_441]
-	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_441]
-	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_441]
-	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:239) ~[httpclient-4.3.3.jar:4.3.3]
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117) ~[httpclient-4.3.3.jar:4.3.3]
-	... 16 more
-[00:03:01] [Server thread/INFO] [PropertiesBase] global (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.server.global.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] global (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\server\5.7\journeymap.server.global.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] default (FirstLoaded) Setting config file to version "5.7.1p3": journeymap.server.default.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] default (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\server\5.7\journeymap.server.default.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim0 (Initialized) Setting config file to version "5.7.1p3": journeymap.server.dim0.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim0 (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\server\5.7\journeymap.server.dim0.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim-1 (Initialized) Setting config file to version "5.7.1p3": journeymap.server.dim-1.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim-1 (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\server\5.7\journeymap.server.dim-1.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim1 (Initialized) Setting config file to version "5.7.1p3": journeymap.server.dim1.config
-[00:03:01] [Server thread/INFO] [PropertiesBase] dim1 (Valid) Creating config file: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\server\5.7\journeymap.server.dim1.config
-[00:03:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[00:03:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[00:03:29] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\waypoints
-[00:03:29] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 2048MB total, 426MB free 
-[00:03:29] [Client thread/INFO] [ChatLog] 旅行地图： 按下[J]键
-[00:08:41] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\DIM0
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.1p3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=游戏时间, sizePercent=30, showDayNight=true, info3Label=位置, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=小圆点, showReticle=true, orientation=北, systemTimeRealFormat=HH:mm:ss, shape=圆形, showSelf=true, info4Label=生物群系, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=空, fontScale=2}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.1p3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=2, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=游戏时间, sizePercent=30, showDayNight=true, info3Label=位置, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=小圆点, showReticle=true, orientation=北, systemTimeRealFormat=HH:mm:ss, shape=矩形, showSelf=true, info4Label=生物群系, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, reticleOrientation=罗盘模式, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=屏幕右上, info1Label=空, fontScale=2}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.1p3, mobDisplay=小圆点, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=小圆点, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=2, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1p3, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1p3, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1p3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=圆形, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[02:39:06] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[02:39:06] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[02:39:06] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[02:39:06] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg �ms
+[02:39:10] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[02:39:11] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[02:39:12] [JM-VersionCheck-1/WARN] [VersionCheck$1] No versions found online for 1.12.2
+[02:40:24] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[02:40:24] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[02:40:24] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\waypoints
+[02:40:25] [Client thread/INFO] [JourneymapClient] Mapping started in D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\DIM0. Memory: 2048MB total, 501MB free 
+[02:40:25] [Client thread/INFO] [ChatLog] 旅行地图： 按下[J]键
+[02:41:30] [Client thread/INFO] [JourneymapClient] Mapping halted in D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\journeymap\data\sp\新的世界\DIM0
