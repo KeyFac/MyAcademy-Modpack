@@ -1,0 +1,247 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  PatcherPlugin (AdvSolarPatch-1.2.1.jar)
+  Inventory Tweaks Coremod ([0-辅助-R键整理]InventoryTweaks-1.63.jar)
+  JechCore ([0-辅助-拼音搜索]JustEnoughCharacters-1.12.0-3.5.0.jar)
+  MaLiLibCore (malilib-forge-1.12.2-0.10.0-dev.23.nomixin.jar)
+  LitematicaCore (litematica-forge-1.12.2-0.0.0-dev.20191217.195055.jar)
+  MiniHudCore (minihud-forge-1.12.2-0.19.0-dev.20210503.192331.jar)
+  MicdoodlePlugin ([星系]MicdoodleCore-1.12.2-4.0.2.280.jar)
+  CorePlugin (AcademyCraft-1.1.3.jar)
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.3.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+Contact their authors BEFORE contacting forge
+
+// Who set us up the TNT?
+
+Time: 5/18/25 2:01 PM
+Description: Initializing game
+
+java.lang.NoSuchMethodError: net.minecraft.util.NonNullList.create()Lnet/minecraft/util/NonNullList;
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemMapping(ModelRegistry.java:135)
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemMapping(ModelRegistry.java:120)
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemVariants(ModelRegistry.java:69)
+	at com.jaquadro.minecraft.storagedrawers.core.ModItems$Registration.registerModels(ModItems.java:86)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_549_Registration_registerModels_ModelRegistryEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.client.FMLClientHandler.fireSidedRegistryEvents(FMLClientHandler.java:1062)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireSidedRegistryEvents(FMLCommonHandler.java:764)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:631)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemMapping(ModelRegistry.java:135)
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemMapping(ModelRegistry.java:120)
+	at com.jaquadro.minecraft.chameleon.resources.ModelRegistry.registerItemVariants(ModelRegistry.java:69)
+	at com.jaquadro.minecraft.storagedrawers.core.ModItems$Registration.registerModels(ModItems.java:86)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_549_Registration_registerModels_ModelRegistryEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:144)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.client.FMLClientHandler.fireSidedRegistryEvents(FMLClientHandler.java:1062)
+	at net.minecraftforge.fml.common.FMLCommonHandler.fireSidedRegistryEvents(FMLCommonHandler.java:764)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:631)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_441, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 381348016 bytes (363 MB) / 1744830464 bytes (1664 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 18 total; -Xmx2048m -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseG1GC -XX:G1MixedGCCountTarget=5 -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-OmitStackTraceInFastThrow -XX:MaxInlineLevel=15 -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:TieredCompileTaskTimeout=10000 -XX:ReservedCodeCacheSize=400M -XX:NmethodSweepActivity=1 -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 67 mods loaded, 67 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version                    | Source                                                      | Signature                                |
+	|:----- |:--------------------------------- |:-------------------------- |:----------------------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                         | 1.12.2                     | minecraft.jar                                               | None                                     |
+	| LCH   | mcp                               | 9.42                       | minecraft.jar                                               | None                                     |
+	| LCH   | FML                               | 8.0.99.99                  | forge-1.12.2-14.23.5.2860.jar                               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                             | 14.23.5.2860               | forge-1.12.2-14.23.5.2860.jar                               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | jecharacters                      | 1.12.0-3.5.0               | [0-辅助-拼音搜索]JustEnoughCharacters-1.12.0-3.5.0.jar            | None                                     |
+	| LCH   | micdoodlecore                     |                            | minecraft.jar                                               | None                                     |
+	| LCH   | LambdaLib|Core                    | 0.2.0                      | minecraft.jar                                               | None                                     |
+	| LCH   | advsolarpatch                     | 1.2.1                      | minecraft.jar                                               | None                                     |
+	| LCH   | inventorytweaks                   | 1.63+release.109.220f184   | [0-辅助-R键整理]InventoryTweaks-1.63.jar                         | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCH   | durabilityshow                    | 5.0.0                      | [0-辅助-耐久显示]Durability Show-1.12-5.0.0.jar                   | None                                     |
+	| LCH   | neat                              | 1.4-15                     | [0-辅助-血条显示]Neat 1.4-15.jar                                  | None                                     |
+	| LCH   | mjrlegendslib                     | 1.12.2-1.2.1               | [星系-额外行星-前置]MJRLegendsLib-1.12.2-1.2.1.jar                  | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | ic2                               | 2.8.222-ex112              | industrialcraft-2-2.8.222-ex112.jar                         | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCH   | galacticraftcore                  | 4.0.2.280                  | [星系]GalacticraftCore-1.12.2-4.0.2.280.jar                   | None                                     |
+	| LCH   | galacticraftplanets               | 4.0.2.280                  | [星系]Galacticraft-Planets-1.12.2-4.0.2.280.jar               | None                                     |
+	| LCH   | crafttweaker                      | 4.1.20                     | CraftTweaker2-1.12-4.1.20.699.jar                           | None                                     |
+	| LCH   | extraplanets                      | 1.12.2-0.7.3               | [星系-额外行星]ExtraPlanets-1.12.2-0.7.3.jar                      | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LCH   | lambdalib2                        | 0.2.0                      | AcademyCraft-1.1.3.jar                                      | None                                     |
+	| LCH   | academy                           | 1.1.3                      | AcademyCraft-1.1.3.jar                                      | None                                     |
+	| LCH   | advanced_solar_panels             | 4.3.0                      | Advanced Solar Panels-4.3.0.jar                             | None                                     |
+	| LCH   | appliedenergistics2               | rv6-stable-7               | appliedenergistics2-rv6-stable-7.jar                        | None                                     |
+	| LCH   | bdlib                             | 1.14.4.1                   | bdlib-1.14.4.1-mc1.12.2.jar                                 | None                                     |
+	| LCH   | biomeinfo                         | v1.2.5                     | biomeinfo-1.12.2-v1.2.5.jar                                 | None                                     |
+	| LCH   | chameleon                         | 1.12.2-4.1.3               | Chameleon-1.12.2-4.1.3.jar                                  | None                                     |
+	| LCH   | codechickenlib                    | 3.2.3.358                  | CodeChickenLib-1.12.2-3.2.3.358-universal.jar               | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | controlling                       | 3.0.10                     | Controlling-3.0.12.2.jar                                    | None                                     |
+	| LCH   | ctgui                             | 1.0.0                      | CraftTweaker2-1.12-4.1.20.699.jar                           | None                                     |
+	| LCH   | jei                               | 4.16.1.1013                | jei_1.12.2-4.16.1.1013.jar                                  | None                                     |
+	| LCH   | crafttweakerjei                   | 2.0.3                      | CraftTweaker2-1.12-4.1.20.699.jar                           | None                                     |
+	| LCH   | orelib                            | 3.6.0.1                    | OreLib-1.12.2-3.6.0.1.jar                                   | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCH   | dsurround                         | @VERSION@                  | DynamicSurroundings-1.12.2-3.6.3.jar                        | None                                     |
+	| LCH   | ebwizardry                        | 4.3.14                     | ElectroblobsWizardry-4.3.14.jar                             | None                                     |
+	| LCH   | endercore                         | 1.12.2-0.5.78              | EnderCore-1.12.2-0.5.78.jar                                 | None                                     |
+	| LCH   | enderio                           | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiointegrationtic             | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiobase                       | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderioconduits                   | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderioconduitsappliedenergistics | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderioconduitsopencomputers      | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderioconduitsrefinedstorage     | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiointegrationforestry        | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiointegrationticlate         | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderioinvpanel                   | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiomachines                   | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | enderiopowertools                 | 5.3.72                     | EnderIO-1.12.2-5.3.72.jar                                   | None                                     |
+	| LCH   | exac                              | 1.2.1-pre3                 | ExtraAcademy-1.2.1-pre3.jar                                 | None                                     |
+	| LCH   | cfm                               | 6.3.0                      | furniture-6.3.2-1.12.2.jar                                  | None                                     |
+	| LCH   | waila                             | 1.8.26                     | Hwyla-1.8.26-B41_1.12.2.jar                                 | None                                     |
+	| LCH   | journeymap                        | 1.12.2-5.7.1p3             | journeymap-1.12.2-5.7.1p3.jar                               | None                                     |
+	| LCH   | lanserverproperties               | 1.0                        | lanserverproperties-1.0.jar                                 | None                                     |
+	| LCH   | libnine                           | 1.2.1                      | libnine-1.12.2-1.2.1.jar                                    | None                                     |
+	| LCH   | threng                            | 1.1.26                     | lazy-ae2-1.12.2-1.1.26.jar                                  | None                                     |
+	| LCH   | lazyae2patch                      | 1.1.0                      | lazy-ae2-patch-1.1.0.jar                                    | None                                     |
+	| LCH   | malilib                           | 0.10.0-dev.23.nomixin      | malilib-forge-1.12.2-0.10.0-dev.23.nomixin.jar              | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCH   | litematica                        | 0.0.0-dev.20191217.195055  | litematica-forge-1.12.2-0.0.0-dev.20191217.195055.jar       | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCH   | minihud                           | 0.19.0-dev.20210503.192331 | minihud-forge-1.12.2-0.19.0-dev.20210503.192331.jar         | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCH   | mm_lib                            | 2.3.0                      | MMLib-2.3.0.jar                                             | None                                     |
+	| LCH   | nei                               | 2.4.3                      | NotEnoughItems-1.12.2-2.4.3.245-universal.jar               | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | projecte                          | 1.12.2-PE1.4.1             | ProjectE-1.12.2-PE1.4.1.jar                                 | None                                     |
+	| LCH   | flammpfeil.slashblade             | mc1.12-r33                 | SlashBlade-mc1.12-r33.jar                                   | None                                     |
+	| LCH   | storagedrawers                    | 5.5.2                      | StorageDrawers-1.12.2-5.5.2.jar                             | None                                     |
+	| LCH   | lastsmith                         | 2.2.1-1.12.2               | TLS-2.2.1-1.12.2.jar                                        | None                                     |
+	| LCH   | travelersbackpack                 | 1.0.35                     | TravelersBackpack-1.12.2-1.0.35.jar                         | None                                     |
+	| LCH   | tweakeroo                         | 0.10.0-dev.20201007.231650 | tweakeroo-forge-1.12.2-0.10.0-dev.20201007.231650+fix.1.jar | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCH   | wailaharvestability               | 1.1.12                     | WailaHarvestability-mc1.12-1.1.12.jar                       | None                                     |
+	| LCH   | waystones                         | 4.1.0                      | Waystones_1.12.2-4.1.0.jar                                  | None                                     |
+	| LCH   | xray                              | 2.0.0                      | xray-1.12.2-1.6.0.jar                                       | None                                     |
+
+	Loaded coremods (and transformers): 
+PatcherPlugin (AdvSolarPatch-1.2.1.jar)
+  mods.su5ed.advsolarpatch.ClassTransformer
+Inventory Tweaks Coremod ([0-辅助-R键整理]InventoryTweaks-1.63.jar)
+  invtweaks.forge.asm.ContainerTransformer
+JechCore ([0-辅助-拼音搜索]JustEnoughCharacters-1.12.0-3.5.0.jar)
+  me.towdium.jecharacters.core.JechClassTransformer
+MaLiLibCore (malilib-forge-1.12.2-0.10.0-dev.23.nomixin.jar)
+  
+LitematicaCore (litematica-forge-1.12.2-0.0.0-dev.20191217.195055.jar)
+  
+MiniHudCore (minihud-forge-1.12.2-0.19.0-dev.20210503.192331.jar)
+  
+MicdoodlePlugin ([星系]MicdoodleCore-1.12.2-4.0.2.280.jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+CorePlugin (AcademyCraft-1.1.3.jar)
+  cn.lambdalib2.render.mc.PipelineTransformer
+  cn.lambdalib2.registry.impl.RegistryTransformer
+TransformLoader (DynamicSurroundings-1.12.2-3.6.3.jar)
+  
+EnderCorePlugin (EnderCore-1.12.2-0.5.78-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 551.86' Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Ender IO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):
+                  * Optifine is installed. This is NOT supported.
+                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+	Authlib is : /D:/Users/Documents/Github/MyAcademy-Modpack/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	List of loaded APIs: 
+		* appliedenergistics2|API (rv6) from appliedenergistics2-rv6-stable-7.jar
+		* enderioapi (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|addon (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|capacitor (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|conduits (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|farm (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|redstone (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|teleport (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|tools (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* enderioapi|upgrades (4.0.0) from EnderIO-1.12.2-5.3.72.jar
+		* Galacticraft API (1.0) from [星系]GalacticraftCore-1.12.2-4.0.2.280.jar
+		* journeymap|client-api (1.4) from journeymap-1.12.2-5.7.1p3.jar
+		* journeymap|client-api-display (1.4) from journeymap-1.12.2-5.7.1p3.jar
+		* journeymap|client-api-event (1.4) from journeymap-1.12.2-5.7.1p3.jar
+		* journeymap|client-api-model (1.4) from journeymap-1.12.2-5.7.1p3.jar
+		* journeymap|client-api-util (1.4) from journeymap-1.12.2-5.7.1p3.jar
+		* JustEnoughItemsAPI (4.13.0) from jei_1.12.2-4.16.1.1013.jar
+		* projecteapi (1.12.2-1.2.0) from ProjectE-1.12.2-PE1.4.1.jar
+		* StorageDrawersAPI (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* StorageDrawersAPI|event (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* StorageDrawersAPI|registry (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* StorageDrawersAPI|render (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* StorageDrawersAPI|storage (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* StorageDrawersAPI|storage-attribute (2.1.0) from StorageDrawers-1.12.2-5.5.2.jar
+		* WailaAPI (1.3) from Hwyla-1.8.26-B41_1.12.2.jar
+	Launched Version: 1.12.2-Forge
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce GTX 1650/PCIe/SSE2 GL version 4.6.0 NVIDIA 551.86, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: Minecraft-Mod-Language-Modpack.zip
+	Current Language: 简体中文 (中国)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 551.86
+	OpenGlRenderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 8
