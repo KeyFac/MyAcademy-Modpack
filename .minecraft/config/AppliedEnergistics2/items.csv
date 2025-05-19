@@ -1190,6 +1190,9 @@ ic2:fluid_cell:0, 通用流体单元
 ic2:fluid_cell:0, 通用流体单元
 ic2:fluid_cell:0, 通用流体单元
 ic2:fluid_cell:0, 通用流体单元
+ic2:fluid_cell:0, 通用流体单元
+ic2:fluid_cell:0, 通用流体单元
+ic2:fluid_cell:0, 通用流体单元
 ic2:cable:0, 铜质导线
 ic2:cable:0, 绝缘铜质导线
 ic2:cable:1, 玻璃纤维导线
@@ -1256,6 +1259,9 @@ advanced_solar_panels:crafting:11, 铀锭
 advanced_solar_panels:crafting:12, 分子重组核心
 advanced_solar_panels:crafting:13, 量子核心
 advanced_solar_panels:double_stone_slab, 石台阶
+enderstorage:ender_storage:0, 末影箱子
+enderstorage:ender_storage:1, 末影蓄水槽
+enderstorage:ender_pouch, 末影袋子
 flammpfeil.slashblade:proudsoul:0, 耀魂碎片
 flammpfeil.slashblade:proudsoul:0, 耀魂碎片
 flammpfeil.slashblade:proudsoul:1, 耀魂铁锭
@@ -3339,6 +3345,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 陨石
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石块
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 陨石砖块
+appliedenergistics2:facade:0, 线缆伪装板 - 厨房地板
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶块
 appliedenergistics2:facade:0, 线缆伪装板 - 赤焰晶块
@@ -3445,6 +3452,125 @@ appliedenergistics2:facade:0, 线缆伪装板 - 白桦木桥接方块
 appliedenergistics2:facade:0, 线缆伪装板 - 丛林木桥接方块
 appliedenergistics2:facade:0, 线缆伪装板 - 金合欢木桥接方块
 appliedenergistics2:facade:0, 线缆伪装板 - 深色橡木桥接方块
+appliedenergistics2:facade:0, 线缆伪装板 - 暮色橡木
+appliedenergistics2:facade:0, 线缆伪装板 - 苍穹木
+appliedenergistics2:facade:0, 线缆伪装板 - 红木
+appliedenergistics2:facade:0, 线缆伪装板 - 黑木
+appliedenergistics2:facade:0, 线缆伪装板 - 根茎
+appliedenergistics2:facade:0, 线缆伪装板 - 活根
+appliedenergistics2:facade:0, 线缆伪装板 - 暮色橡木树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 苍穹树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 红树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 彩虹橡树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 遗迹石头
+appliedenergistics2:facade:0, 线缆伪装板 - 遗迹石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制遗迹石头
+appliedenergistics2:facade:0, 线缆伪装板 - 装饰遗迹石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 破碎遗迹石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 遗迹苔石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 遗迹石方块
+appliedenergistics2:facade:0, 线缆伪装板 - 遗迹石沿
+appliedenergistics2:facade:0, 线缆伪装板 - 树篱
+appliedenergistics2:facade:0, 线缆伪装板 - 拆解台
+appliedenergistics2:facade:0, 线缆伪装板 - 娜迦石头部
+appliedenergistics2:facade:0, 线缆伪装板 - 娜迦石
+appliedenergistics2:facade:0, 线缆伪装板 - 时光树原木
+appliedenergistics2:facade:0, 线缆伪装板 - 变化树原木
+appliedenergistics2:facade:0, 线缆伪装板 - 矿石树原木
+appliedenergistics2:facade:0, 线缆伪装板 - 分类树原木
+appliedenergistics2:facade:0, 线缆伪装板 - 时光树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 变化树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 矿石树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 分类树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 时光树时钟
+appliedenergistics2:facade:0, 线缆伪装板 - 变化树心脏
+appliedenergistics2:facade:0, 线缆伪装板 - 矿石树核心
+appliedenergistics2:facade:0, 线缆伪装板 - 分类树引擎
+appliedenergistics2:facade:0, 线缆伪装板 - 塔树木板
+appliedenergistics2:facade:0, 线缆伪装板 - 塔树板箱
+appliedenergistics2:facade:0, 线缆伪装板 - 破裂塔木
+appliedenergistics2:facade:0, 线缆伪装板 - 青苔塔木
+appliedenergistics2:facade:0, 线缆伪装板 - 虫蛀塔木
+appliedenergistics2:facade:0, 线缆伪装板 - 重现的方块
+appliedenergistics2:facade:0, 线缆伪装板 - 消失的方块
+appliedenergistics2:facade:0, 线缆伪装板 - 锁定的消失的方块
+appliedenergistics2:facade:0, 线缆伪装板 - 解锁的消失的方块
+appliedenergistics2:facade:0, 线缆伪装板 - 高塔建设者
+appliedenergistics2:facade:0, 线缆伪装板 - 反建器
+appliedenergistics2:facade:0, 线缆伪装板 - 恶魂陷阱
+appliedenergistics2:facade:0, 线缆伪装板 - 砷铅铁反应堆
+appliedenergistics2:facade:0, 线缆伪装板 - 要塞护盾
+appliedenergistics2:facade:0, 线缆伪装板 - 极光方块
+appliedenergistics2:facade:0, 线缆伪装板 - 地下砖
+appliedenergistics2:facade:0, 线缆伪装板 - 青苔地下砖
+appliedenergistics2:facade:0, 线缆伪装板 - 碎裂地下砖
+appliedenergistics2:facade:0, 线缆伪装板 - 抛光地下砖
+appliedenergistics2:facade:0, 线缆伪装板 - 荆棘叶
+appliedenergistics2:facade:0, 线缆伪装板 - 豆茎叶
+appliedenergistics2:facade:0, 线缆伪装板 - 风化死岩
+appliedenergistics2:facade:0, 线缆伪装板 - 裂纹死岩
+appliedenergistics2:facade:0, 线缆伪装板 - 死岩
+appliedenergistics2:facade:0, 线缆伪装板 - 黑树树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 极光柱
+appliedenergistics2:facade:0, 线缆伪装板 - 巨魔岩石
+appliedenergistics2:facade:0, 线缆伪装板 - 薄云
+appliedenergistics2:facade:0, 线缆伪装板 - 浮云
+appliedenergistics2:facade:0, 线缆伪装板 - 巨型圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 巨型原木
+appliedenergistics2:facade:0, 线缆伪装板 - 巨型树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 巨型黑曜石
+appliedenergistics2:facade:0, 线缆伪装板 - 巨大的茎
+appliedenergistics2:facade:0, 线缆伪装板 - 巨型荧光蘑菇
+appliedenergistics2:facade:0, 线缆伪装板 - 城堡砖
+appliedenergistics2:facade:0, 线缆伪装板 - 磨损城堡砖
+appliedenergistics2:facade:0, 线缆伪装板 - 碎裂城堡砖
+appliedenergistics2:facade:0, 线缆伪装板 - 城堡顶瓦
+appliedenergistics2:facade:0, 线缆伪装板 - 生苔城堡砖
+appliedenergistics2:facade:0, 线缆伪装板 - 厚重城堡砖
+appliedenergistics2:facade:0, 线缆伪装板 - 黑纹城堡砖柱
+appliedenergistics2:facade:0, 线缆伪装板 - 黑纹城堡砖瓦
+appliedenergistics2:facade:0, 线缆伪装板 - 粗纹城堡砖柱
+appliedenergistics2:facade:0, 线缆伪装板 - 粗纹城堡砖瓦
+appliedenergistics2:facade:0, 线缆伪装板 - 粉红色城堡符文砖
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝色城堡符文砖
+appliedenergistics2:facade:0, 线缆伪装板 - 黄色城堡符文砖
+appliedenergistics2:facade:0, 线缆伪装板 - 紫色城堡符文砖
+appliedenergistics2:facade:0, 线缆伪装板 - 余烬熔炉【未实现】
+appliedenergistics2:facade:0, 线缆伪装板 - 余烬原木【未实现】
+appliedenergistics2:facade:0, 线缆伪装板 - 黄色城堡门
+appliedenergistics2:facade:0, 线缆伪装板 - 紫色城堡门
+appliedenergistics2:facade:0, 线缆伪装板 - 粉红色城堡门
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝色城堡门
+appliedenergistics2:facade:0, 线缆伪装板 - 铁树块
+appliedenergistics2:facade:0, 线缆伪装板 - 炽热金属块
+appliedenergistics2:facade:0, 线缆伪装板 - 钢叶块
+appliedenergistics2:facade:0, 线缆伪装板 - 极地毛皮块
+appliedenergistics2:facade:0, 线缆伪装板 - 砷铅铁块
+appliedenergistics2:facade:0, 线缆伪装板 - 蚀刻娜迦石
+appliedenergistics2:facade:0, 线缆伪装板 - 娜迦石柱
+appliedenergistics2:facade:0, 线缆伪装板 - 蚀刻娜迦苔石
+appliedenergistics2:facade:0, 线缆伪装板 - 娜迦苔石柱
+appliedenergistics2:facade:0, 线缆伪装板 - 风化的蚀刻娜迦石
+appliedenergistics2:facade:0, 线缆伪装板 - 风化的娜迦石柱
+appliedenergistics2:facade:0, 线缆伪装板 - 暮色橡木板
+appliedenergistics2:facade:0, 线缆伪装板 - 苍穹木板
+appliedenergistics2:facade:0, 线缆伪装板 - 红木板
+appliedenergistics2:facade:0, 线缆伪装板 - 黑木木板
+appliedenergistics2:facade:0, 线缆伪装板 - 时光木板
+appliedenergistics2:facade:0, 线缆伪装板 - 变化木板
+appliedenergistics2:facade:0, 线缆伪装板 - 矿石木板
+appliedenergistics2:facade:0, 线缆伪装板 - 分类木板
+appliedenergistics2:facade:0, 线缆伪装板 - 圈状陶瓦
+appliedenergistics2:facade:0, 线缆伪装板 - 对角陶瓦
+appliedenergistics2:facade:0, 线缆伪装板 - tile.twilightforest.StonePillar.name
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Twilight Oak Wood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Canopy Wood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Mangrove Wood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Darkwood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Timewood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Transwood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Minewood
+appliedenergistics2:facade:0, 线缆伪装板 - Gilded Sortingwood
 appliedenergistics2:facade:0, 线缆伪装板 - 束能金属矿
 appliedenergistics2:facade:0, 线缆伪装板 - 虚能水晶矿
 appliedenergistics2:facade:0, 线缆伪装板 - 虚像硅矿
@@ -3671,6 +3797,35 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
+chesttransporter:chesttransporter, 木搬箱器
+chesttransporter:chesttransporter_iron, 铁搬箱器
+chesttransporter:chesttransporter_gold, 金搬箱器
+chesttransporter:chesttransporter_diamond, 钻石搬箱器
+chesttransporter:chesttransporter_copper, 铜搬箱器
+chesttransporter:chesttransporter_silver, 银搬箱器
+chesttransporter:chesttransporter_tin, 锡搬箱器
+chesttransporter:chesttransporter_obsidian, 黑曜石搬箱器
+cookingforblockheads:cooking_table, 烹饪桌
+cookingforblockheads:oven, 烤箱
+cookingforblockheads:fridge, 冰箱
+cookingforblockheads:sink, 水槽
+cookingforblockheads:tool_rack, 厨具架
+cookingforblockheads:toaster, 吐司机
+cookingforblockheads:milk_jar, 牛奶罐
+cookingforblockheads:cow_jar, 罐中奶牛
+cookingforblockheads:spice_rack, 调料架
+cookingforblockheads:counter, 厨房柜台
+cookingforblockheads:cabinet, 厨柜
+cookingforblockheads:corner, 厨房转角
+cookingforblockheads:kitchen_floor, 厨房地板
+cookingforblockheads:fruit_basket, 水果篮
+cookingforblockheads:cutting_board, 砧板
+cookingforblockheads:recipe_book:0, 傻瓜烹饪手册
+cookingforblockheads:recipe_book:1, 傻瓜烹饪手册 I
+cookingforblockheads:recipe_book:2, 傻瓜烹饪手册 II
+cookingforblockheads:heating_unit, 加热单元
+cookingforblockheads:ice_unit, 冷却单元
+cookingforblockheads:preservation_chamber, 保鲜室
 ebwizardry:arcane_workbench, 奥术工作台
 ebwizardry:crystal_ore, 水晶矿石
 ebwizardry:crystal_flower, 水晶花
@@ -6017,6 +6172,144 @@ cfm:item_kebab_cooked, 烤肉串
 cfm:item_crow_bar, 撬棍
 cfm:ceiling_fan_fans, item.ceiling_fan_fans.name
 cfm:tv_remote, 电视遥控器
+ironchest:iron_chest:0, 铁箱子
+ironchest:iron_chest:1, 金箱子
+ironchest:iron_chest:2, 钻石箱子
+ironchest:iron_chest:3, 铜箱子
+ironchest:iron_chest:4, 银箱子
+ironchest:iron_chest:5, 水晶箱子
+ironchest:iron_chest:6, 黑曜石箱子
+ironchest:iron_chest:7, 泥箱子 9000！
+ironchest:iron_shulker_box_white:0, 白色铁质潜影盒
+ironchest:iron_shulker_box_white:1, 白色金质潜影盒
+ironchest:iron_shulker_box_white:2, 白色钻石潜影盒
+ironchest:iron_shulker_box_white:3, 白色铜质潜影盒
+ironchest:iron_shulker_box_white:4, 白色银质潜影盒
+ironchest:iron_shulker_box_white:5, 白色水晶潜影盒
+ironchest:iron_shulker_box_white:6, 白色黑曜石潜影盒
+ironchest:iron_shulker_box_orange:0, 橙色铁质潜影盒
+ironchest:iron_shulker_box_orange:1, 橙色金质潜影盒
+ironchest:iron_shulker_box_orange:2, 橙色钻石潜影盒
+ironchest:iron_shulker_box_orange:3, 橙色铜质潜影盒
+ironchest:iron_shulker_box_orange:4, 橙色银质潜影盒
+ironchest:iron_shulker_box_orange:5, 橙色水晶潜影盒
+ironchest:iron_shulker_box_orange:6, 橙色黑曜石潜影盒
+ironchest:iron_shulker_box_magenta:0, 品红色铁质潜影盒
+ironchest:iron_shulker_box_magenta:1, 品红色金质潜影盒
+ironchest:iron_shulker_box_magenta:2, 品红色钻石潜影盒
+ironchest:iron_shulker_box_magenta:3, 品红色铜质潜影盒
+ironchest:iron_shulker_box_magenta:4, 品红色银质潜影盒
+ironchest:iron_shulker_box_magenta:5, 品红色水晶潜影盒
+ironchest:iron_shulker_box_magenta:6, 品红色黑曜石潜影盒
+ironchest:iron_shulker_box_light_blue:0, 淡蓝色铁质潜影盒
+ironchest:iron_shulker_box_light_blue:1, 淡蓝色金质潜影盒
+ironchest:iron_shulker_box_light_blue:2, 淡蓝色钻石潜影盒
+ironchest:iron_shulker_box_light_blue:3, 淡蓝色铜质潜影盒
+ironchest:iron_shulker_box_light_blue:4, 淡蓝色银质潜影盒
+ironchest:iron_shulker_box_light_blue:5, 淡蓝色水晶潜影盒
+ironchest:iron_shulker_box_light_blue:6, 淡蓝色黑曜石潜影盒
+ironchest:iron_shulker_box_yellow:0, 黄色铁质潜影盒
+ironchest:iron_shulker_box_yellow:1, 黄色金质潜影盒
+ironchest:iron_shulker_box_yellow:2, 黄色钻石潜影盒
+ironchest:iron_shulker_box_yellow:3, 黄色铜质潜影盒
+ironchest:iron_shulker_box_yellow:4, 黄色银质潜影盒
+ironchest:iron_shulker_box_yellow:5, 黄色水晶潜影盒
+ironchest:iron_shulker_box_yellow:6, 黄色黑曜石潜影盒
+ironchest:iron_shulker_box_lime:0, 黄绿色铁质潜影盒
+ironchest:iron_shulker_box_lime:1, 黄绿色金质潜影盒
+ironchest:iron_shulker_box_lime:2, 黄绿色钻石潜影盒
+ironchest:iron_shulker_box_lime:3, 黄绿色铜质潜影盒
+ironchest:iron_shulker_box_lime:4, 黄绿色银质潜影盒
+ironchest:iron_shulker_box_lime:5, 黄绿色水晶潜影盒
+ironchest:iron_shulker_box_lime:6, 黄绿色黑曜石潜影盒
+ironchest:iron_shulker_box_pink:0, 粉红色铁质潜影盒
+ironchest:iron_shulker_box_pink:1, 粉红色金质潜影盒
+ironchest:iron_shulker_box_pink:2, 粉红色钻石潜影盒
+ironchest:iron_shulker_box_pink:3, 粉红色铜质潜影盒
+ironchest:iron_shulker_box_pink:4, 粉红色银质潜影盒
+ironchest:iron_shulker_box_pink:5, 粉红色水晶潜影盒
+ironchest:iron_shulker_box_pink:6, 粉红色黑曜石潜影盒
+ironchest:iron_shulker_box_gray:0, 灰色铁质潜影盒
+ironchest:iron_shulker_box_gray:1, 灰色金质潜影盒
+ironchest:iron_shulker_box_gray:2, 灰色钻石潜影盒
+ironchest:iron_shulker_box_gray:3, 灰色铜质潜影盒
+ironchest:iron_shulker_box_gray:4, 灰色银质潜影盒
+ironchest:iron_shulker_box_gray:5, 灰色水晶潜影盒
+ironchest:iron_shulker_box_gray:6, 灰色黑曜石潜影盒
+ironchest:iron_shulker_box_silver:0, 淡灰色铁质潜影盒
+ironchest:iron_shulker_box_silver:1, 淡灰色金质潜影盒
+ironchest:iron_shulker_box_silver:2, 淡灰色钻石潜影盒
+ironchest:iron_shulker_box_silver:3, 淡灰色铜质潜影盒
+ironchest:iron_shulker_box_silver:4, 淡灰色银质潜影盒
+ironchest:iron_shulker_box_silver:5, 淡灰色水晶潜影盒
+ironchest:iron_shulker_box_silver:6, 淡灰色黑曜石潜影盒
+ironchest:iron_shulker_box_cyan:0, 青色铁质潜影盒
+ironchest:iron_shulker_box_cyan:1, 青色金质潜影盒
+ironchest:iron_shulker_box_cyan:2, 青色钻石潜影盒
+ironchest:iron_shulker_box_cyan:3, 青色铜质潜影盒
+ironchest:iron_shulker_box_cyan:4, 青色银质潜影盒
+ironchest:iron_shulker_box_cyan:5, 青色水晶潜影盒
+ironchest:iron_shulker_box_cyan:6, 青色黑曜石潜影盒
+ironchest:iron_shulker_box_purple:0, 紫色铁质潜影盒
+ironchest:iron_shulker_box_purple:1, 紫色金质潜影盒
+ironchest:iron_shulker_box_purple:2, 紫色钻石潜影盒
+ironchest:iron_shulker_box_purple:3, 紫色铜质潜影盒
+ironchest:iron_shulker_box_purple:4, 紫色银质潜影盒
+ironchest:iron_shulker_box_purple:5, 紫色水晶潜影盒
+ironchest:iron_shulker_box_purple:6, 紫色黑曜石潜影盒
+ironchest:iron_shulker_box_blue:0, 蓝色铁质潜影盒
+ironchest:iron_shulker_box_blue:1, 蓝色金质潜影盒
+ironchest:iron_shulker_box_blue:2, 蓝色钻石潜影盒
+ironchest:iron_shulker_box_blue:3, 蓝色铜质潜影盒
+ironchest:iron_shulker_box_blue:4, 蓝色银质潜影盒
+ironchest:iron_shulker_box_blue:5, 蓝色水晶潜影盒
+ironchest:iron_shulker_box_blue:6, 蓝色黑曜石潜影盒
+ironchest:iron_shulker_box_brown:0, 棕色铁质潜影盒
+ironchest:iron_shulker_box_brown:1, 棕色金质潜影盒
+ironchest:iron_shulker_box_brown:2, 棕色钻石潜影盒
+ironchest:iron_shulker_box_brown:3, 棕色铜质潜影盒
+ironchest:iron_shulker_box_brown:4, 棕色银质潜影盒
+ironchest:iron_shulker_box_brown:5, 棕色水晶潜影盒
+ironchest:iron_shulker_box_brown:6, 棕色黑曜石潜影盒
+ironchest:iron_shulker_box_green:0, 绿色铁质潜影盒
+ironchest:iron_shulker_box_green:1, 绿色金质潜影盒
+ironchest:iron_shulker_box_green:2, 绿色钻石潜影盒
+ironchest:iron_shulker_box_green:3, 绿色铜质潜影盒
+ironchest:iron_shulker_box_green:4, 绿色银质潜影盒
+ironchest:iron_shulker_box_green:5, 绿色水晶潜影盒
+ironchest:iron_shulker_box_green:6, 绿色黑曜石潜影盒
+ironchest:iron_shulker_box_red:0, 红色铁质潜影盒
+ironchest:iron_shulker_box_red:1, 红色金质潜影盒
+ironchest:iron_shulker_box_red:2, 红色钻石潜影盒
+ironchest:iron_shulker_box_red:3, 红色铜质潜影盒
+ironchest:iron_shulker_box_red:4, 红色银质潜影盒
+ironchest:iron_shulker_box_red:5, 红色水晶潜影盒
+ironchest:iron_shulker_box_red:6, 红色黑曜石潜影盒
+ironchest:iron_shulker_box_black:0, 黑色铁质潜影盒
+ironchest:iron_shulker_box_black:1, 黑色金质潜影盒
+ironchest:iron_shulker_box_black:2, 黑色钻石潜影盒
+ironchest:iron_shulker_box_black:3, 黑色铜质潜影盒
+ironchest:iron_shulker_box_black:4, 黑色银质潜影盒
+ironchest:iron_shulker_box_black:5, 黑色水晶潜影盒
+ironchest:iron_shulker_box_black:6, 黑色黑曜石潜影盒
+ironchest:iron_gold_chest_upgrade, 箱子升级：铁>金
+ironchest:gold_diamond_chest_upgrade, 箱子升级：金>钻石
+ironchest:copper_silver_chest_upgrade, 箱子升级：铜>银
+ironchest:silver_gold_chest_upgrade, 箱子升级：银>金
+ironchest:copper_iron_chest_upgrade, 箱子升级：铜>铁
+ironchest:diamond_crystal_chest_upgrade, 箱子升级：钻石>水晶
+ironchest:wood_iron_chest_upgrade, 箱子升级：木>铁
+ironchest:wood_copper_chest_upgrade, 箱子升级：木>铜
+ironchest:diamond_obsidian_chest_upgrade, 箱子升级：钻石>黑曜石
+ironchest:iron_gold_shulker_upgrade, 潜影盒升级：铁>金
+ironchest:gold_diamond_shulker_upgrade, 潜影盒升级：金>钻石
+ironchest:copper_silver_shulker_upgrade, 潜影盒升级：铜>银
+ironchest:silver_gold_shulker_upgrade, 潜影盒升级：银>金
+ironchest:copper_iron_shulker_upgrade, 潜影盒升级：铜>铁
+ironchest:diamond_crystal_shulker_upgrade, 潜影盒升级：钻石>水晶
+ironchest:vanilla_iron_shulker_upgrade, 潜影盒升级：原版>铁
+ironchest:vanilla_copper_shulker_upgrade, 潜影盒升级：原版>铜
+ironchest:diamond_obsidian_shulker_upgrade, 潜影盒升级：钻石>黑曜石
 projecte:alchemical_chest, 炼金术箱子
 projecte:collector_mk1, 能量收集器 MK1
 projecte:collector_mk2, 能量收集器 MK2
@@ -6131,6 +6424,27 @@ projecte:item.pe_catalitic_lens, 催化水晶
 projecte:item.pe_tome, 炼金术秘卷
 projecte:item.pe_transmutation_tablet, 便携式转化桌
 projecte:item.pe_manual, 炼金术士之书[WIP]
+storagedrawers:upgrade_template, 升级模板
+storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
+storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
+storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
+storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
+storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
+storagedrawers:upgrade_one_stack, 存储降级
+storagedrawers:upgrade_status:0, 状态显示升级（I）
+storagedrawers:upgrade_status:1, 状态显示升级（II）
+storagedrawers:upgrade_void, 销毁升级
+storagedrawers:upgrade_conversion, 转换升级
+storagedrawers:upgrade_creative:0, 创造模式容量升级
+storagedrawers:upgrade_creative:1, 创造模式取出升级
+storagedrawers:upgrade_redstone:0, 红石升级
+storagedrawers:upgrade_redstone:1, 红石升级（最大）
+storagedrawers:upgrade_redstone:2, 红石升级（最小）
+storagedrawers:drawer_key, 抽屉钥匙
+storagedrawers:shroud_key, 屏蔽钥匙
+storagedrawers:personal_key, 私人钥匙
+storagedrawers:quantify_key, 量化钥匙
+storagedrawers:tape, 打包带
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
@@ -6181,27 +6495,493 @@ storagedrawers:customdrawers:3, 1x2 小型镶框抽屉
 storagedrawers:customdrawers:4, 2x2 小型镶框抽屉
 storagedrawers:customtrim, 镶框桥接方块
 storagedrawers:framingtable, 镶框台
-storagedrawers:upgrade_template, 升级模板
-storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
-storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
-storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
-storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
-storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
-storagedrawers:upgrade_one_stack, 存储降级
-storagedrawers:upgrade_status:0, 状态显示升级（I）
-storagedrawers:upgrade_status:1, 状态显示升级（II）
-storagedrawers:upgrade_void, 销毁升级
-storagedrawers:upgrade_conversion, 转换升级
-storagedrawers:upgrade_creative:0, 创造模式容量升级
-storagedrawers:upgrade_creative:1, 创造模式取出升级
-storagedrawers:upgrade_redstone:0, 红石升级
-storagedrawers:upgrade_redstone:1, 红石升级（最大）
-storagedrawers:upgrade_redstone:2, 红石升级（最小）
-storagedrawers:drawer_key, 抽屉钥匙
-storagedrawers:shroud_key, 屏蔽钥匙
-storagedrawers:personal_key, 私人钥匙
-storagedrawers:quantify_key, 量化钥匙
-storagedrawers:tape, 打包带
+twilightforest:naga_scale, 娜迦鳞片
+twilightforest:naga_chestplate, 娜迦胸甲
+twilightforest:naga_leggings, 娜迦护腿
+twilightforest:twilight_scepter, 黄昏权杖
+twilightforest:lifedrain_scepter, 吸血权杖
+twilightforest:zombie_scepter, 僵尸权杖
+twilightforest:shield_scepter, 护盾权杖
+twilightforest:ore_meter, 矿石感应仪【未实现】
+twilightforest:magic_map:0, 魔法地图
+twilightforest:maze_map:0, 迷宫地图
+twilightforest:ore_map:0, 迷宫 / 矿石地图
+twilightforest:raven_feather, 乌鸦羽毛
+twilightforest:magic_map_focus, 魔法地图核心
+twilightforest:maze_map_focus, 迷宫地图核心
+twilightforest:liveroot, 活根
+twilightforest:ironwood_raw, 生铁树原料
+twilightforest:ironwood_ingot, 铁树锭
+twilightforest:ironwood_helmet, 铁树头盔
+twilightforest:ironwood_chestplate, 铁树胸甲
+twilightforest:ironwood_leggings, 铁树护腿
+twilightforest:ironwood_boots, 铁树靴
+twilightforest:ironwood_sword, 铁树剑
+twilightforest:ironwood_shovel, 铁树铲
+twilightforest:ironwood_pickaxe, 铁树镐
+twilightforest:ironwood_axe, 铁树斧
+twilightforest:ironwood_hoe, 铁树锄
+twilightforest:torchberries, 火炬浆果
+twilightforest:raw_venison, 生鹿肉
+twilightforest:cooked_venison, 鹿肉排
+twilightforest:hydra_chop, 九头蛇肉排
+twilightforest:fiery_blood, 炽热的血液
+twilightforest:fiery_tears, 炽热之泪
+twilightforest:trophy:0, 娜迦战利品
+twilightforest:trophy:1, 巫妖战利品
+twilightforest:trophy:2, 九头蛇战利品
+twilightforest:trophy:3, 暮色恶魂战利品
+twilightforest:trophy:4, 幻影骑士战利品
+twilightforest:trophy:5, 冰雪女王战利品
+twilightforest:trophy:6, 米诺菇战利品
+twilightforest:trophy:8, 谜题羊战利品
+twilightforest:fiery_ingot, 炽铁锭
+twilightforest:fiery_helmet, 炽铁头盔
+twilightforest:fiery_chestplate, 炽铁胸甲
+twilightforest:fiery_leggings, 炽铁护腿
+twilightforest:fiery_boots, 炽铁靴子
+twilightforest:fiery_sword, 炽铁剑
+twilightforest:fiery_pickaxe, 炽铁镐
+twilightforest:steeleaf_ingot, 钢叶
+twilightforest:steeleaf_helmet, 钢叶头盔
+twilightforest:steeleaf_chestplate, 钢叶胸甲
+twilightforest:steeleaf_leggings, 钢叶护腿
+twilightforest:steeleaf_boots, 钢叶靴
+twilightforest:steeleaf_sword, 钢叶剑
+twilightforest:steeleaf_shovel, 钢叶铲
+twilightforest:steeleaf_pickaxe, 钢叶镐
+twilightforest:steeleaf_axe, 钢叶斧
+twilightforest:steeleaf_hoe, 钢叶锄
+twilightforest:minotaur_axe_gold, 金米诺陶战斧
+twilightforest:minotaur_axe, 钻石米诺陶战斧
+twilightforest:mazebreaker_pickaxe, 迷宫破坏者
+twilightforest:transformation_powder, 转换粉
+twilightforest:raw_meef, 生牛头人肉
+twilightforest:cooked_meef, 牛头人肉排
+twilightforest:meef_stroganoff, 牛头人沙拉酱肉
+twilightforest:maze_wafer, 迷宫薄饼
+twilightforest:magic_map_empty, 空白魔法地图
+twilightforest:maze_map_empty, 空白迷宫地图
+twilightforest:ore_map_empty, 空白迷宫 / 矿石地图
+twilightforest:ore_magnet, 矿石磁铁
+twilightforest:crumble_horn, 瓦解之号角
+twilightforest:peacock_fan, 孔雀羽毛扇
+twilightforest:moonworm_queen, 月光蠕虫女王
+twilightforest:charm_of_life_1, 生命符咒 I
+twilightforest:charm_of_life_2, 生命符咒 II
+twilightforest:charm_of_keeping_1, 保管符咒 I
+twilightforest:charm_of_keeping_2, 保管符咒 II
+twilightforest:charm_of_keeping_3, 保管符咒 III
+twilightforest:tower_key, 塔钥匙
+twilightforest:borer_essence, 三化螟精华
+twilightforest:carminite, 砷铅铁矿石
+twilightforest:experiment_115, 试验物品 115
+twilightforest:armor_shard, 装甲碎片
+twilightforest:knightmetal_ingot, 骑士金属锭
+twilightforest:armor_shard_cluster, 装甲碎片堆
+twilightforest:knightmetal_helmet, 骑士头盔
+twilightforest:knightmetal_chestplate, 骑士胸甲
+twilightforest:knightmetal_leggings, 骑士护腿
+twilightforest:knightmetal_boots, 骑士靴
+twilightforest:knightmetal_sword, 骑士剑
+twilightforest:knightmetal_pickaxe, 骑士镐
+twilightforest:knightmetal_axe, 骑士斧
+twilightforest:knightmetal_shield, 骑士盾
+twilightforest:phantom_helmet, 幻影头盔
+twilightforest:phantom_chestplate, 幻影胸甲
+twilightforest:lamp_of_cinders, 余烬之灯
+twilightforest:alpha_fur, 雪怪首领毛皮
+twilightforest:yeti_helmet, 雪怪角盔
+twilightforest:yeti_chestplate, 雪怪皮衣
+twilightforest:yeti_leggings, 雪怪护腿
+twilightforest:yeti_boots, 雪怪靴子
+twilightforest:ice_bomb, 冰霜炸弹
+twilightforest:arctic_fur, 极地毛皮
+twilightforest:arctic_helmet, 极地风帽
+twilightforest:arctic_chestplate, 极地皮衣
+twilightforest:arctic_leggings, 极地护腿
+twilightforest:arctic_boots, 极地靴子
+twilightforest:magic_beans, 魔豆
+twilightforest:giant_pickaxe, 巨人镐
+twilightforest:giant_sword, 巨人剑
+twilightforest:triple_bow, 三发弓
+twilightforest:seeker_bow, 追踪弓
+twilightforest:ice_bow, 寒冰弓
+twilightforest:ender_bow, 末影弓
+twilightforest:ice_sword, 寒冰剑
+twilightforest:glass_sword, 玻璃剑
+twilightforest:knightmetal_ring, 骑士金属环
+twilightforest:block_and_chain, 链锤
+twilightforest:cube_talisman, 立方护符
+twilightforest:cube_of_annihilation, 湮灭立方
+twilightforest:moon_dial, 月相罗盘
+twilightforest:twilight_log:0, 暮色橡木
+twilightforest:twilight_log:1, 苍穹木
+twilightforest:twilight_log:2, 红木
+twilightforest:twilight_log:3, 黑木
+twilightforest:root:0, 根茎
+twilightforest:root:1, 活根
+twilightforest:twilight_leaves:0, 暮色橡木树叶
+twilightforest:twilight_leaves:1, 苍穹树叶
+twilightforest:twilight_leaves:2, 红树树叶
+twilightforest:twilight_leaves:3, 彩虹橡树叶
+twilightforest:firefly, 萤火虫
+twilightforest:cicada, 蝉
+twilightforest:maze_stone:0, 遗迹石头
+twilightforest:maze_stone:1, 遗迹石砖
+twilightforest:maze_stone:2, 錾制遗迹石头
+twilightforest:maze_stone:3, 装饰遗迹石砖
+twilightforest:maze_stone:4, 破碎遗迹石砖
+twilightforest:maze_stone:5, 遗迹苔石砖
+twilightforest:maze_stone:6, 遗迹石方块
+twilightforest:maze_stone:7, 遗迹石沿
+twilightforest:hedge:0, 树篱
+twilightforest:boss_spawner:0, 生成 娜迦
+twilightforest:boss_spawner:1, 生成 巫妖
+twilightforest:boss_spawner:2, 生成 九头蛇
+twilightforest:boss_spawner:3, 生成 暮色恶魂
+twilightforest:boss_spawner:4, 生成 幻影骑士
+twilightforest:boss_spawner:5, 生成 冰雪女王
+twilightforest:boss_spawner:6, 生成 米诺菇
+twilightforest:boss_spawner:7, 生成 雪怪首领
+twilightforest:boss_spawner:9, 最终Boss刷怪笼
+twilightforest:firefly_jar, 萤火虫罐子
+twilightforest:twilight_plant:0, 暮色森林苔藓
+twilightforest:twilight_plant:1, 鬼臼果
+twilightforest:twilight_plant:2, 三叶草 [WIP]
+twilightforest:twilight_plant:3, 暮色森林蕨类
+twilightforest:twilight_plant:4, 荧光蘑菇
+twilightforest:twilight_plant:5, 林地草
+twilightforest:twilight_plant:6, 枯死的灌木
+twilightforest:twilight_plant:7, 火炬浆果植物
+twilightforest:twilight_plant:8, 根须
+twilightforest:twilight_plant:9, 树叶堆
+twilightforest:uncrafting_table, 拆解台
+twilightforest:fire_jet:0, 烟雾方块
+twilightforest:fire_jet:3, 火焰喷射
+twilightforest:fire_jet:1, 被包裹的烟雾
+twilightforest:fire_jet:6, 火焰喷射方块
+twilightforest:naga_stone:0, 娜迦石头部
+twilightforest:naga_stone:1, 娜迦石
+twilightforest:twilight_sapling:0, 暮色橡树树苗
+twilightforest:twilight_sapling:1, 苍穹树树苗
+twilightforest:twilight_sapling:2, 红树树苗
+twilightforest:twilight_sapling:3, 黑树树苗
+twilightforest:twilight_sapling:4, 高大暮色橡树树苗
+twilightforest:twilight_sapling:5, 时光树树苗
+twilightforest:twilight_sapling:6, 变化树树苗
+twilightforest:twilight_sapling:7, 矿石树树苗
+twilightforest:twilight_sapling:8, 分类树树苗
+twilightforest:twilight_sapling:9, 彩虹树树苗
+twilightforest:moonworm, 月光蠕虫
+twilightforest:magic_log:0, 时光树原木
+twilightforest:magic_log:1, 变化树原木
+twilightforest:magic_log:2, 矿石树原木
+twilightforest:magic_log:3, 分类树原木
+twilightforest:magic_leaves:0, 时光树树叶
+twilightforest:magic_leaves:1, 变化树树叶
+twilightforest:magic_leaves:2, 矿石树树叶
+twilightforest:magic_leaves:3, 分类树树叶
+twilightforest:magic_log_core:0, 时光树时钟
+twilightforest:magic_log_core:1, 变化树心脏
+twilightforest:magic_log_core:2, 矿石树核心
+twilightforest:magic_log_core:3, 分类树引擎
+twilightforest:tower_wood:0, 塔树木板
+twilightforest:tower_wood:1, 塔树板箱
+twilightforest:tower_wood:2, 破裂塔木
+twilightforest:tower_wood:3, 青苔塔木
+twilightforest:tower_wood:4, 虫蛀塔木
+twilightforest:tower_device:0, 重现的方块
+twilightforest:tower_device:2, 消失的方块
+twilightforest:tower_device:4, 锁定的消失的方块
+twilightforest:tower_device:5, 解锁的消失的方块
+twilightforest:tower_device:6, 高塔建设者
+twilightforest:tower_device:9, 反建器
+twilightforest:tower_device:10, 恶魂陷阱
+twilightforest:tower_device:12, 砷铅铁反应堆
+twilightforest:stronghold_shield, 要塞护盾
+twilightforest:trophy_pedestal:0, 战利品宝座
+twilightforest:aurora_block, 极光方块
+twilightforest:underbrick:0, 地下砖
+twilightforest:underbrick:1, 青苔地下砖
+twilightforest:underbrick:2, 碎裂地下砖
+twilightforest:underbrick:3, 抛光地下砖
+twilightforest:thorns:0, 荆棘
+twilightforest:thorns:1, 翠绿荆棘
+twilightforest:burnt_thorns, 烧焦荆棘
+twilightforest:thorn_rose, 荆棘玫瑰
+twilightforest:twilight_leaves_3:0, 荆棘叶
+twilightforest:twilight_leaves_3:1, 豆茎叶
+twilightforest:deadrock:0, 风化死岩
+twilightforest:deadrock:1, 裂纹死岩
+twilightforest:deadrock:2, 死岩
+twilightforest:dark_leaves, 黑树树叶
+twilightforest:aurora_pillar, 极光柱
+twilightforest:aurora_slab:0, 极光台阶
+twilightforest:trollsteinn, 巨魔岩石
+twilightforest:wispy_cloud, 薄云
+twilightforest:fluffy_cloud, 浮云
+twilightforest:giant_cobblestone, 巨型圆石
+twilightforest:giant_log, 巨型原木
+twilightforest:giant_leaves, 巨型树叶
+twilightforest:giant_obsidian, 巨型黑曜石
+twilightforest:uberous_soil, 肥沃泥土
+twilightforest:huge_stalk, 巨大的茎
+twilightforest:huge_mushgloom, 巨型荧光蘑菇
+twilightforest:trollvidr, 巨魔藤蔓
+twilightforest:unripe_trollber, 没熟的巨魔莓
+twilightforest:trollber, 巨魔莓
+twilightforest:knightmetal_block, 骑士金属块
+twilightforest:huge_lilypad, 巨型睡莲
+twilightforest:huge_waterlily, 巨型荷花
+twilightforest:slider:0, 滑动陷阱
+twilightforest:slider:1, 滑动陷阱 甲
+twilightforest:slider:2, 滑动陷阱 乙
+twilightforest:slider:3, 滑动陷阱 丙
+twilightforest:castle_brick:0, 城堡砖
+twilightforest:castle_brick:1, 磨损城堡砖
+twilightforest:castle_brick:2, 碎裂城堡砖
+twilightforest:castle_brick:3, 城堡顶瓦
+twilightforest:castle_brick:4, 生苔城堡砖
+twilightforest:castle_brick:5, 厚重城堡砖
+twilightforest:castle_stairs_brick, 城堡砖楼梯
+twilightforest:castle_stairs_cracked, 碎裂城堡砖楼梯
+twilightforest:castle_stairs_worn, 磨损城堡砖楼梯
+twilightforest:castle_stairs_mossy, 生苔城堡砖楼梯
+twilightforest:castle_pillar:0, 黑纹城堡砖柱
+twilightforest:castle_pillar:1, 黑纹城堡砖瓦
+twilightforest:castle_pillar:2, 粗纹城堡砖柱
+twilightforest:castle_pillar:3, 粗纹城堡砖瓦
+twilightforest:castle_stairs:0, 黑纹城堡砖楼梯
+twilightforest:castle_stairs:8, 粗纹城堡砖楼梯
+twilightforest:castle_rune_brick:0, 粉红色城堡符文砖
+twilightforest:castle_rune_brick:1, 蓝色城堡符文砖
+twilightforest:castle_rune_brick:2, 黄色城堡符文砖
+twilightforest:castle_rune_brick:3, 紫色城堡符文砖
+twilightforest:force_field:0, 紫色力场
+twilightforest:force_field:1, 粉红色力场
+twilightforest:force_field:2, 橙色力场
+twilightforest:force_field:3, 绿色力场
+twilightforest:force_field:4, 蓝色力场
+twilightforest:cinder_furnace, 余烬熔炉【未实现】
+twilightforest:cinder_log, 余烬原木【未实现】
+twilightforest:castle_door:0, 黄色城堡门
+twilightforest:castle_door:1, 紫色城堡门
+twilightforest:castle_door:2, 粉红色城堡门
+twilightforest:castle_door:3, 蓝色城堡门
+twilightforest:miniature_structure:0, 微缩模型：暮色森林传送门【未实现】
+twilightforest:miniature_structure:1, 微缩模型：树篱迷宫【未实现】
+twilightforest:miniature_structure:2, 微缩模型：亡灵矿山【未实现】
+twilightforest:miniature_structure:3, 微缩模型：谜题羊树丛【未实现】
+twilightforest:miniature_structure:4, 微缩模型：蘑菇堡【未实现】
+twilightforest:miniature_structure:5, 微缩模型：娜迦花园【未实现】
+twilightforest:miniature_structure:6, 微缩模型：巫妖塔【未实现】
+twilightforest:miniature_structure:7, 微缩模型：牛头人迷宫【未实现】
+twilightforest:miniature_structure:8, 微缩模型：九头蛇巢穴【未实现】
+twilightforest:miniature_structure:9, 微缩模型：哥布林要塞【未实现】
+twilightforest:miniature_structure:10, 微缩模型：黑暗之塔【未实现】
+twilightforest:miniature_structure:11, 微缩模型：雪怪洞窟【未实现】
+twilightforest:miniature_structure:12, 微缩模型：极光宫殿【未实现】
+twilightforest:miniature_structure:13, 微缩模型：巨魔洞穴与云上楼阁【未实现】
+twilightforest:miniature_structure:14, 微缩模型：终焉城堡【未实现】
+twilightforest:block_storage:0, 铁树块
+twilightforest:block_storage:1, 炽热金属块
+twilightforest:block_storage:2, 钢叶块
+twilightforest:block_storage:3, 极地毛皮块
+twilightforest:block_storage:4, 砷铅铁块
+twilightforest:spiral_bricks, 螺旋石砖【开发中】
+twilightforest:etched_nagastone, 蚀刻娜迦石
+twilightforest:nagastone_pillar, 娜迦石柱
+twilightforest:nagastone_stairs:0, 娜迦石楼梯（左）
+twilightforest:nagastone_stairs:8, 娜迦石楼梯（右）
+twilightforest:etched_nagastone_mossy, 蚀刻娜迦苔石
+twilightforest:nagastone_pillar_mossy, 娜迦苔石柱
+twilightforest:nagastone_stairs_mossy:0, 娜迦苔石楼梯（左）
+twilightforest:nagastone_stairs_mossy:8, 娜迦苔石楼梯（右）
+twilightforest:etched_nagastone_weathered, 风化的蚀刻娜迦石
+twilightforest:nagastone_pillar_weathered, 风化的娜迦石柱
+twilightforest:nagastone_stairs_weathered:0, 风化的娜迦石楼梯（左）
+twilightforest:nagastone_stairs_weathered:8, 风化的娜迦石楼梯（右）
+twilightforest:auroralized_glass, 极光玻璃
+twilightforest:iron_ladder, 铁梯子
+twilightforest:terrorcotta_circle, 圈状陶瓦
+twilightforest:terrorcotta_diagonal, 对角陶瓦
+twilightforest:stone_twist, tile.twilightforest.StonePillar.name
+twilightforest:stone_twist_thin, tile.twilightforest.StonePillarThin.name
+twilightforest:twilight_oak_planks, 暮色橡木板
+twilightforest:twilight_oak_stairs, 暮色橡木楼梯
+twilightforest:twilight_oak_slab:0, 暮色橡木台阶
+twilightforest:twilight_oak_button, 暮色橡木按钮
+twilightforest:twilight_oak_door, 暮色橡木门
+twilightforest:twilight_oak_trapdoor, 暮色橡木活板门
+twilightforest:twilight_oak_fence, 暮色橡木栅栏
+twilightforest:twilight_oak_gate, 暮色橡木栅栏门
+twilightforest:twilight_oak_plate, 暮色橡木压力板
+twilightforest:canopy_planks, 苍穹木板
+twilightforest:canopy_stairs, 苍穹木楼梯
+twilightforest:canopy_slab:0, 苍穹木台阶
+twilightforest:canopy_button, 苍穹木按钮
+twilightforest:canopy_door, 苍穹木门
+twilightforest:canopy_trapdoor, 苍穹木活板门
+twilightforest:canopy_fence, 苍穹木栅栏
+twilightforest:canopy_gate, 苍穹木栅栏门
+twilightforest:canopy_plate, 苍穹木压力板
+twilightforest:mangrove_planks, 红木板
+twilightforest:mangrove_stairs, 红木楼梯
+twilightforest:mangrove_slab:0, 红木台阶
+twilightforest:mangrove_button, 红木按钮
+twilightforest:mangrove_door, 红木门
+twilightforest:mangrove_trapdoor, 红木活板门
+twilightforest:mangrove_fence, 红木栅栏
+twilightforest:mangrove_gate, 红木栅栏门
+twilightforest:mangrove_plate, 红木压力板
+twilightforest:dark_planks, 黑木木板
+twilightforest:dark_stairs, 黑木楼梯
+twilightforest:dark_slab:0, 黑木台阶
+twilightforest:dark_button, 黑木按钮
+twilightforest:dark_door, 黑木门
+twilightforest:dark_trapdoor, 黑木活板门
+twilightforest:dark_fence, 黑木栅栏
+twilightforest:dark_gate, 黑木栅栏门
+twilightforest:dark_plate, 黑木压力板
+twilightforest:time_planks, 时光木板
+twilightforest:time_stairs, 时光木楼梯
+twilightforest:time_slab:0, 时光木台阶
+twilightforest:time_button, 时光木按钮
+twilightforest:time_door, 时光木门
+twilightforest:time_trapdoor, 时光木活板门
+twilightforest:time_fence, 时光木栅栏
+twilightforest:time_gate, 时光木栅栏门
+twilightforest:time_plate, 时光木压力板
+twilightforest:trans_planks, 变化木板
+twilightforest:trans_stairs, 变化木楼梯
+twilightforest:trans_slab:0, 变化木台阶
+twilightforest:trans_button, 变化木按钮
+twilightforest:trans_door, 变化木门
+twilightforest:trans_trapdoor, 变化木活板门
+twilightforest:trans_fence, 变化木栅栏
+twilightforest:trans_gate, 变化木栅栏门
+twilightforest:trans_plate, 变化木压力板
+twilightforest:mine_planks, 矿石木板
+twilightforest:mine_stairs, 矿石木楼梯
+twilightforest:mine_slab:0, 矿石木台阶
+twilightforest:mine_button, 矿石木按钮
+twilightforest:mine_door, 矿石木门
+twilightforest:mine_trapdoor, 矿石木活板门
+twilightforest:mine_fence, 矿石木栅栏
+twilightforest:mine_gate, 矿石木栅栏门
+twilightforest:mine_plate, 矿石木压力板
+twilightforest:sort_planks, 分类木板
+twilightforest:sort_stairs, 分类木楼梯
+twilightforest:sort_slab:0, 分类木台阶
+twilightforest:sort_button, 分类木按钮
+twilightforest:sort_door, 分类木门
+twilightforest:sort_trapdoor, 分类木活板门
+twilightforest:sort_fence, 分类木栅栏
+twilightforest:sort_gate, 分类木栅栏门
+twilightforest:sort_plate, 分类木压力板
+tfspellpack:gilded_twilight_oak_wood, Gilded Twilight Oak Wood
+tfspellpack:gilded_canopy_wood, Gilded Canopy Wood
+tfspellpack:gilded_mangrove_wood, Gilded Mangrove Wood
+tfspellpack:gilded_darkwood, Gilded Darkwood
+tfspellpack:gilded_timewood, Gilded Timewood
+tfspellpack:gilded_transwood, Gilded Transwood
+tfspellpack:gilded_minewood, Gilded Minewood
+tfspellpack:gilded_sortingwood, Gilded Sortingwood
+tfspellpack:twilight_oak_bookshelf, Twilight Oak Bookshelf
+tfspellpack:canopy_bookshelf, Canopy Bookshelf
+tfspellpack:mangrove_bookshelf, Mangrove Bookshelf
+tfspellpack:darkwood_bookshelf, Darkwood Bookshelf
+tfspellpack:timewood_bookshelf, Timewood Bookshelf
+tfspellpack:transwood_bookshelf, Transwood Bookshelf
+tfspellpack:minewood_bookshelf, Minewood Bookshelf
+tfspellpack:sortingwood_bookshelf, Sortingwood Bookshelf
+tfspellpack:twilight_oak_lectern, Twilight Oak Lectern
+tfspellpack:canopy_lectern, Canopy Lectern
+tfspellpack:mangrove_lectern, Mangrove Lectern
+tfspellpack:darkwood_lectern, Darkwood Lectern
+tfspellpack:timewood_lectern, Timewood Lectern
+tfspellpack:transwood_lectern, Transwood Lectern
+tfspellpack:minewood_lectern, Minewood Lectern
+tfspellpack:sortingwood_lectern, Sortingwood Lectern
+tfspellpack:twilight_spell_book:189, 暮色法术书
+tfspellpack:twilight_spell_book:190, 暮色法术书
+tfspellpack:twilight_spell_book:191, 暮色法术书
+tfspellpack:twilight_spell_book:192, 暮色法术书
+tfspellpack:twilight_spell_book:193, 暮色法术书
+tfspellpack:twilight_spell_book:194, 暮色法术书
+tfspellpack:twilight_spell_book:195, 暮色法术书
+tfspellpack:twilight_spell_book:196, 暮色法术书
+tfspellpack:twilight_spell_book:197, 暮色法术书
+tfspellpack:twilight_spell_book:198, 暮色法术书
+tfspellpack:twilight_spell_book:199, 暮色法术书
+tfspellpack:twilight_spell_book:200, 暮色法术书
+tfspellpack:twilight_spell_book:201, 暮色法术书
+tfspellpack:twilight_spell_book:202, 暮色法术书
+tfspellpack:twilight_spell_book:203, 暮色法术书
+tfspellpack:twilight_spell_book:204, 暮色法术书
+tfspellpack:twilight_spell_book:205, 暮色法术书
+tfspellpack:twilight_spell_book:206, 暮色法术书
+tfspellpack:twilight_spell_book:207, 暮色法术书
+tfspellpack:twilight_spell_book:208, 暮色法术书
+tfspellpack:twilight_spell_book:209, 暮色法术书
+tfspellpack:twilight_spell_book:210, 暮色法术书
+tfspellpack:twilight_spell_book:211, 暮色法术书
+tfspellpack:twilight_spell_book:212, 暮色法术书
+tfspellpack:twilight_spell_book:213, 暮色法术书
+tfspellpack:twilight_spell_book:214, 暮色法术书
+tfspellpack:twilight_spell_book:215, 暮色法术书
+tfspellpack:twilight_spell_book:216, 暮色法术书
+tfspellpack:twilight_spell_book:217, 暮色法术书
+tfspellpack:twilight_spell_book:218, 暮色法术书
+tfspellpack:twilight_spell_book:219, 暮色法术书
+tfspellpack:twilight_spell_book:220, 暮色法术书
+tfspellpack:twilight_spell_book:221, 暮色法术书
+tfspellpack:twilight_scroll:189, 寒霜吐息卷轴
+tfspellpack:twilight_scroll:190, 召唤骷髅德鲁伊卷轴
+tfspellpack:twilight_scroll:191, 召唤哥布林卷轴
+tfspellpack:twilight_scroll:192, 德鲁伊之触卷轴
+tfspellpack:twilight_scroll:193, 月光蠕虫卷轴
+tfspellpack:twilight_scroll:194, 迷雾斗篷卷轴
+tfspellpack:twilight_scroll:195, 转换卷轴
+tfspellpack:twilight_scroll:196, 死灵书页卷轴
+tfspellpack:twilight_scroll:197, 暮色法球卷轴
+tfspellpack:twilight_scroll:198, 铁树之心卷轴
+tfspellpack:twilight_scroll:199, 召唤喷火甲虫卷轴
+tfspellpack:twilight_scroll:200, 九头蛇爆炸火球卷轴
+tfspellpack:twilight_scroll:201, 余烬火云卷轴
+tfspellpack:twilight_scroll:202, 召唤冰精灵卷轴
+tfspellpack:twilight_scroll:203, 冰霜炸弹卷轴
+tfspellpack:twilight_scroll:204, 酸雨卷轴
+tfspellpack:twilight_scroll:205, 暮色触媒卷轴
+tfspellpack:twilight_scroll:206, 召唤幽灵卷轴
+tfspellpack:twilight_scroll:207, 召唤洞穴巨魔卷轴
+tfspellpack:twilight_scroll:208, 召唤粘液甲虫卷轴
+tfspellpack:twilight_scroll:209, 巫妖壁垒卷轴
+tfspellpack:twilight_scroll:210, 生命魔咒卷轴
+tfspellpack:twilight_scroll:211, 炽热泪雨卷轴
+tfspellpack:twilight_scroll:212, 火焰喷射卷轴
+tfspellpack:twilight_scroll:213, 召唤冰雪守卫军团卷轴
+tfspellpack:twilight_scroll:214, 冰雪云辇卷轴
+tfspellpack:twilight_scroll:215, Carminite Singularity卷轴
+tfspellpack:twilight_scroll:216, 恶魂陷阱卷轴
+tfspellpack:twilight_scroll:217, 窒息云雾卷轴
+tfspellpack:twilight_scroll:218, 号角之鸣卷轴
+tfspellpack:twilight_scroll:219, 湮灭光束卷轴
+tfspellpack:twilight_scroll:220, 口袋拆解台卷轴
+tfspellpack:twilight_scroll:221, 九头蛇元气卷轴
+tfspellpack:ring_twilight, 暮色之戒
+tfspellpack:ring_hydra_kaboom, 恶毒之眼戒指
+tfspellpack:ring_aurora, 极光之戒
+tfspellpack:ring_trollsteinn, 巨魔石戒
+tfspellpack:ring_stealth_attack, 隐夜之戒
+tfspellpack:amulet_steeleaf, 钢叶护符
+tfspellpack:amulet_carminite, 砷铅铁护符
+tfspellpack:amulet_life_charm, 金心护符
+tfspellpack:charm_ice_exploder, 恶毒冰珍珠
+tfspellpack:charm_goblin, 红帽矿工的背包
+tfspellpack:charm_troll, 覆冰巨魔莓
+tfspellpack:charm_accursed_tome, 诅咒之书
 travelersbackpack:travelers_backpack:0, 旅行者背包
 travelersbackpack:travelers_backpack:1, 旅行者背包
 travelersbackpack:travelers_backpack:2, 旅行者背包
@@ -6288,6 +7068,29 @@ waystones:return_scroll, 回程卷轴
 waystones:bound_scroll, 绑定卷轴
 waystones:warp_scroll, 传送卷轴
 waystones:warp_stone, 传送石
+academy:ability_interferer, 能力干涉方块
+academy:cat_engine, 吐司猫
+academy:constraint_metal, 束能金属矿
+academy:crystal_ore, 虚能水晶矿
+academy:dev_advanced, 高级能力开发机
+academy:dev_normal, 基础能力开发机
+academy:imag_fusor, 虚能融合机
+academy:imag_phase, 虚相位液体
+academy:imagsil_ore, 虚像硅矿
+academy:machine_frame, 机械框架
+academy:matrix, 无线虚能矩阵
+academy:metal_former, 金属处理机
+academy:node_advanced, 高级无线虚能节点
+academy:node_basic, 基础无线虚能节点
+academy:node_standard, 改良无线虚能节点
+academy:phase_gen, 虚相位能量发生机
+academy:reso_ore, 谐振水晶矿
+academy:solar_gen, 太阳能能量发生机
+academy:windgen_base, 风力能量发生器 - 支架底座
+academy:windgen_main, 风力能量发生器 - 主机
+academy:windgen_pillar, 风力能量发生器 - 支架
+academy:eu_input, 能源桥 (IC2 EU输入) 
+academy:eu_output, 能源桥 (IC2 EU输出) 
 academy:app_freq_transmitter, 应用安装器
 academy:app_media_player, 应用安装器
 academy:app_skill_tree, 应用安装器
@@ -6327,29 +7130,6 @@ academy:terminal_installer, 数据终端
 academy:tutorial, 御坂云终端
 academy:wafer, 虚像硅晶圆
 academy:windgen_fan, 风力能量发生机 - 扇叶
-academy:eu_input, 能源桥 (IC2 EU输入) 
-academy:eu_output, 能源桥 (IC2 EU输出) 
-academy:ability_interferer, 能力干涉方块
-academy:cat_engine, 吐司猫
-academy:constraint_metal, 束能金属矿
-academy:crystal_ore, 虚能水晶矿
-academy:dev_advanced, 高级能力开发机
-academy:dev_normal, 基础能力开发机
-academy:imag_fusor, 虚能融合机
-academy:imag_phase, 虚相位液体
-academy:imagsil_ore, 虚像硅矿
-academy:machine_frame, 机械框架
-academy:matrix, 无线虚能矩阵
-academy:metal_former, 金属处理机
-academy:node_advanced, 高级无线虚能节点
-academy:node_basic, 基础无线虚能节点
-academy:node_standard, 改良无线虚能节点
-academy:phase_gen, 虚相位能量发生机
-academy:reso_ore, 谐振水晶矿
-academy:solar_gen, 太阳能能量发生机
-academy:windgen_base, 风力能量发生器 - 支架底座
-academy:windgen_main, 风力能量发生器 - 主机
-academy:windgen_pillar, 风力能量发生器 - 支架
 exac:optical_chip, 光学芯片
 exac:lasor_component, 激光模块
 exac:etched_cobblestone, 蚀刻圆石
