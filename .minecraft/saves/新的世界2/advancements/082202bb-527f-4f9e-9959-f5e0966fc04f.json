@@ -1,0 +1,38 @@
+{
+  "ebwizardry:discover_master_spell": {
+    "criteria": {
+      "criteria_0": "2025-05-20 02:55:43 +0800"
+    },
+    "done": true
+  },
+  "galacticraftcore:galacticraft/root": {
+    "criteria": {
+      "tick": "2025-05-20 02:52:30 +0800"
+    },
+    "done": true
+  },
+  "ebwizardry:discover_spell": {
+    "criteria": {
+      "criteria_0": "2025-05-20 02:55:43 +0800"
+    },
+    "done": true
+  },
+  "tfspellpack:all_twilight_spells": {
+    "criteria": {
+      "pocket_tinkerer": "2025-05-20 02:55:43 +0800"
+    },
+    "done": false
+  },
+  "tfspellpack:twilight_spell": {
+    "criteria": {
+      "pocket_tinkerer": "2025-05-20 02:55:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2025-05-20 02:52:30 +0800"
+    },
+    "done": false
+  }
+}
