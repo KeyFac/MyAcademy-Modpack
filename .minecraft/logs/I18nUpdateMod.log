@@ -1,6 +1,10 @@
-[2025-05-20 03:28:13] [INFO]: I18nUpdate Mod 3.6.2 is loaded in 1.12.2 with Forge
-[2025-05-20 03:28:13] [DEBUG]: Minecraft path: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft
-[2025-05-20 03:28:13] [DEBUG]: Local Storage Pos: C:\Users\Administrator
-[2025-05-20 03:28:13] [DEBUG]: Temp and current file has already been synchronized
-[2025-05-20 03:28:13] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip md5: CED47EDCC843EAD3D8AAF3578D18FCA3, remote md5: CED47EDCC843EAD3D8AAF3578D18FCA3
-[2025-05-20 03:28:13] [DEBUG]: Already up to date.
+[2025-05-24 03:39:51] [INFO]: I18nUpdate Mod 3.6.2 is loaded in 1.12.2 with Forge
+[2025-05-24 03:39:51] [DEBUG]: Minecraft path: D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft
+[2025-05-24 03:39:51] [DEBUG]: Local Storage Pos: C:\Users\Administrator
+[2025-05-24 03:39:51] [DEBUG]: Temp and current file has already been synchronized
+[2025-05-24 03:39:51] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip md5: CED47EDCC843EAD3D8AAF3578D18FCA3, remote md5: 70918B43DE77E37A81E1E39A5B1A3F2B
+[2025-05-24 03:39:51] [INFO]: Downloading: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack.zip -> C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip.tmp
+[2025-05-24 03:39:54] [DEBUG]: Downloaded: http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack.zip -> C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip.tmp
+[2025-05-24 03:39:54] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip.tmp md5: 70918B43DE77E37A81E1E39A5B1A3F2B, remote md5: 70918B43DE77E37A81E1E39A5B1A3F2B
+[2025-05-24 03:39:54] [DEBUG]: Updates temp file: C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip
+[2025-05-24 03:39:54] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.12.2\Minecraft-Mod-Language-Modpack.zip -> D:\Users\Documents\Github\MyAcademy-Modpack\.minecraft\resourcepacks\Minecraft-Mod-Language-Modpack.zip
